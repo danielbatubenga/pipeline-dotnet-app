@@ -51,7 +51,7 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-234-89-28.compute-1.amazonaws.com
+        ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-234-89-28.compute-1.amazonaws.com '/home/ubuntu/deploy.sh'
 
 
 
